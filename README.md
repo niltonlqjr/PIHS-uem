@@ -1,2 +1,2 @@
 # PIHS-uem
-Repositório com códigos da disciplina de programação para interfaceamento de hardware e software ministrada na UEM
+Repositório com códigos da disciplina de Programação para Interfaceamento de Hardware e Software ministrada na UEM, no ano de 2026 pelo professor Nilton
