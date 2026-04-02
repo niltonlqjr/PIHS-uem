@@ -1,2 +1,2 @@
-# 12045 - PHIS - UEM - 2026
+# 12045 - PHIS - CC - UEM - 2026
 Repositório com códigos da disciplina de Programação para Interfaceamento de Hardware e Software ministrada na UEM, no ano de 2026 pelo professor Nilton
