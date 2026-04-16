@@ -32,7 +32,7 @@ main:
     xorb num2, %sil
     call printf
 
-    movq $0, %rax
+    xor %rax, %rax
     pop %rbp
 
     ret
