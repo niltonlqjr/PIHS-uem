@@ -18,7 +18,8 @@ main:
     movq n, %rsi
     movq $msg_out_par, %rax
     movq $msg_out_impar, %rdi
-    testq $1, %rsi
+    testq $1, %rsi # and bit a bit com 1 resulta somente no ultimo bit do numero
+                   # um numero binario terminado em 1 eh impar, em 0 eh par 
     cmovz %rax, %rdi
     call printf
 

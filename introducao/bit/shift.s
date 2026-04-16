@@ -16,16 +16,16 @@ main:
     shlq %rsi
     call printf
 
-    movq $fmt_sal, %rdi
-    movq num, %rsi
-    salq $2, %rsi
-    call printf
-    
     movq $fmt_shr, %rdi
     movq num, %rsi
     shrq %rsi
     call printf
 
+    movq $fmt_sal, %rdi
+    movq num, %rsi
+    salq $2, %rsi
+    call printf
+    
     mov $3, %rcx
     movq $fmt_sar, %rdi
     movq num, %rsi

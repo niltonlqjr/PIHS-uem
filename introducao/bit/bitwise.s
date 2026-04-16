@@ -13,7 +13,7 @@ main:
     push %rbp
 
     movq $fmt_not, %rdi
-    movb num1, %sil
+    movb num1, %sil # sil -> 8 bits menos significativos de rsi
     notb %sil
     call printf
 
