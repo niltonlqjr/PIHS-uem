@@ -11,11 +11,14 @@
 main:
     push %rbp
 
-    
-
     movq $fmt_shl, %rdi
     movq num, %rsi
     shlq %rsi
+    call printf
+
+    movq $fmt_shr, %rdi
+    movq num, %rsi
+    shrq %rsi
     call printf
 
     movq $fmt_sal, %rdi
@@ -23,14 +26,7 @@ main:
     salq $2, %rsi
     call printf
     
-
-    movq $fmt_shr, %rdi
-    movq num, %rsi
-    shrq %rsi
-    call printf
-
     mov $3, %rcx
-
     movq $fmt_sar, %rdi
     movq num, %rsi
     sarq %rcx,%rsi
