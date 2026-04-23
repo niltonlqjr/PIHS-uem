@@ -8,6 +8,7 @@
 
 .section .text
 _start:
+    finit
     flds value1
     fldl value2
     fstl data

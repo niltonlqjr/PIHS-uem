@@ -13,7 +13,7 @@
 
 .section .text
 _start:
-    
+    finit
     fldl valor2
     fldl valor1
     fadd %st(1), %st
