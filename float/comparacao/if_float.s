@@ -15,7 +15,7 @@
     
 
 .text
-read_num: # mostra mensagem na tela e chama scanf com o endereco de rax como buffer
+read_num: # mostra mensagem na tela e chama scanf com o endereco de rbx como buffer
     push %rbp
     movq %rsp, %rbp
 
